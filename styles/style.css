@@ -43,9 +43,19 @@
     color: black;
 }
 
-#img {
-    background-color: black;
+#img1 {
+    position: relative;
+    background-image: url('../imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: center left;
     color: white;
+}
+
+#img2 {
+    position: relative;
+    background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+    background-position: center right;
 }
 
 section {
