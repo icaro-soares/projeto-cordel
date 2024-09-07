@@ -47,3 +47,11 @@
     background-color: black;
     color: white;
 }
+
+section {
+    padding: 2em 0;
+    padding-left: 2em;
+    line-height: 2em;
+    font-size: 2em;
+    font-family: var(--fonte2);
+}
