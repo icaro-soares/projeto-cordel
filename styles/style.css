@@ -37,3 +37,13 @@
 .cabecalho-link:hover {
     text-decoration: underline;
 }
+
+#normal {
+    background-color: white;
+    color: black;
+}
+
+#img {
+    background-color: black;
+    color: white;
+}
