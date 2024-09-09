@@ -12,7 +12,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecalho {
+.cabecalho, .rodape {
     background-color: black;
     color: white;
     text-align: center;
@@ -24,7 +24,8 @@
     font: 700 3em var(--fonte1);
 }
 
-.cabecalho-texto {
+.cabecalho-texto,
+.rodape-texto {
     padding-top: 1em;
 }
 
@@ -34,7 +35,14 @@
     font: 700 1.5em var(--fonte1);
 }
 
-.cabecalho-link:hover {
+.rodape-link {
+    text-decoration: none;
+    color: white;
+    font: 400 1.5em var(--fonte1);
+}
+
+.cabecalho-link:hover,
+.rodape-link:hover {
     text-decoration: underline;
 }
 
