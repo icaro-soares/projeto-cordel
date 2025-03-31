@@ -1,0 +1,13 @@
+@media screen and (min-width: 992px) {
+    .imagem1 {
+        background-image: url('../imagens/background001.jpg');
+        background-position: center right;
+        background-attachment: fixed;
+        color: white;
+    }
+    .imagem2 {
+        background-image: url('../imagens/background002.jpg');
+        background-position: center left;
+        background-attachment: fixed;
+    }
+}
