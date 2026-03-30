@@ -51,3 +51,6 @@ section {
     color: white;
 }
 
+section p {
+    margin-bottom: 1em;
+}
