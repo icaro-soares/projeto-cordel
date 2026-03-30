@@ -64,3 +64,16 @@ section {
 section p {
     margin-bottom: 1em;
 }
+
+.img1 {
+    background-image: url('../assets/background001.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.img2 {
+    color: black;
+    background-image: url('../assets/background002.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
