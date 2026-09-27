@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    padding-bottom: 1em;
+    font-variant: small-caps;
+}
+
+header a, footer a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section p {
+    margin: 1em 0;
+    font-size: 3vw;
+}
+
+.branca {
+    padding: 1em 0;
+    padding-left: 1em;
+    background-color: white;
+    color: black;
+}
+
+.preta {
+    padding: 1em 0;
+    padding-left: 1em;
+    background-color: black;
+    color: white;
+}
+
+.image1 {
+    background-image: url('../assets/background001.jpg');
+    background-attachment: fixed;
+    background-position: center left;
+}
+
+.image2 {
+    background: url('../assets/background002.jpg') fixed center left;
+    color: black;
+}
