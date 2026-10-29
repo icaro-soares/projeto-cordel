@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    padding-bottom: 1em;
+    font-variant: small-caps;
+}
+
+header a, footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 1em 0;
+    padding-left: 1em;
+    text-align: justify;
+}
+
+.branca {
+    background-color: white;
+    color: black;
+}
+
+.preta {
+    background-color: black;
+    color: white;
+}
+
+.img1 {
+    background-image: url("../assets/background001.jpg");
+    background-position: center right;
+    background-attachment: fixed;
+    color: white;
+}
+
+.img2 {
+    background-image: url("../assets/background002.jpg");
+    background-position: center left;
+    background-attachment: fixed;
+}
+
+p {
+    margin: 1em;
+    font-size: 2vw;
+}
